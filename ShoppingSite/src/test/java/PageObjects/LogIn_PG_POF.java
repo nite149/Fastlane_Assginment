@@ -15,6 +15,7 @@ public class LogIn_PG_POF {
 	@FindBy(how = How.XPATH, using =  "//button[@id='SubmitCreate']") public WebElement btn_CreateAccount;
 	public LogIn_PG_POF(WebDriver driver) {
 		this.driver = driver;
+		
 	}
 }
 

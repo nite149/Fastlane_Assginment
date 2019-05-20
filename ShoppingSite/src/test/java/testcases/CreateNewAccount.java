@@ -18,27 +18,10 @@ import org.testng.Assert;
 import PageObjects.AccountCreation_PG_POF;
 import PageObjects.LogIn_PG_POF;
 
-public class CreateNewAccount{
+public class CreateNewAccount {
 	public WebDriver driver;
 	
 	ReadPropertyFile data;
-	/*String title = "Mr"; 
-	String firstName = "Nitesh";
-	String lastName = "Singh"; 
-	String email = "black8@gmail.com";
-	String passwd = "welcome";
-	String dobDay = "10";
-	String dobMonth = "January"; 
-	String dobYear = "2000";
-	String company = "Dream";
-	String address1 = "Hakka";
-	String address2 = "Noodles"; 
-	String city = "New York";
-	String state = "Alaska";
-	String zip = "67368";
-	String country = "United States";
-	String mobilePhone = "1038939893";
-	String alias = "My address";*/
 
   @BeforeTest
   public void beforeTest() throws IOException {

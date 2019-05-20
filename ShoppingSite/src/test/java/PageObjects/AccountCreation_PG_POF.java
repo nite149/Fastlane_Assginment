@@ -30,6 +30,5 @@ public class AccountCreation_PG_POF {
 	
 	public AccountCreation_PG_POF(WebDriver driver) {
 		this.driver = driver;
-		
 	}
 }
